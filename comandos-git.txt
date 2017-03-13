@@ -1,0 +1,60 @@
+    1  git config -global user.name Alfonso
+    2  git config --global user.name Alfonso
+    3  git config --global user.email umalfonso@uma.es
+    4  mkdir Practica1
+    5  ls
+    6  cd Practica1
+    7  touch factorial.java
+    8  vim factorial.java
+    9  git init
+   10  git add factorial.java
+   11  git status
+   12  git commit -m "implementacion inicial"
+   13  git status
+   14  git add factorial.java
+   15  git commit -m "refactorizacion" 
+   16  git remote add origin https://github.com/umalfonso/umafactorial
+   17  git push origin master
+   18  git checkout –b recursivo
+   19  git checkout –b "recursivo"
+   20  git checkout –b recursivo
+   21  git checkout –b Alfon
+   22  git checkout recursivo
+   23  git branch recursivo
+   24  git checkout recursivo
+   25  history
+   26  git commit -m "implementacion recursiva"
+   27  git push origin recursivo
+   28  git add factorial.java
+   29  git commit -m "implementacion recursiva"
+   30  git push origin recursivo
+   31  git checkout master
+   32  git add factorial.java
+   33  git commit -m "correccion numeros negativos"
+   34  git push origin master
+   35  git checkout recursivo
+   36  git add factorial.java
+   37  git commit -m "optimizacion"
+   38  git push origin recursivo
+   39  git checkout master
+   40  git merge recursivo
+   41  git branch refacIO
+   42  git checkout refacIO
+   43  git add factorial.java
+   44  git commit -m "refactorizacion de metodo de entrada"
+   45  git stash
+   46  git checkout master
+   47  git add factorial.java
+   48  git commit -m "cambio de long a BigInteger"
+   49  git push origin master
+   50  git checkout refacIO
+   51  git stash pop
+   52  git add factorial.java
+   53  git commit -m "refactorizacion de metodo de salida"
+   54  git checkout master
+   55  git merge refacIO
+   56  git add factorial.java
+   57  git commit -m "mezcla de rama refacIO"
+   58  git push origin master
+   59  touch comandos-git.txt
+   60  history
